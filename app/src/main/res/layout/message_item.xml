@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="37dp"
+            android:layout_height="40dp"
+           android:layout_marginVertical="@dimen/_4sdp"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:src="@drawable/user" />
+
+        <!--text view for displaying user message-->
+        <TextView
+            android:id="@+id/idTVUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="User message"
+            android:textIsSelectable="true"
+            android:textColor="@color/black" />
+
+        <!--we are displaying user icon-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
